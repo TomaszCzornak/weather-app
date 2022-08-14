@@ -2,7 +2,7 @@
   "name": "es6-async-await",
   "version": "3.0.0",
   "scripts": {
-    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
+    "start": "npm i webpack-dev-server@3.11.0 --save-dev",
     "build": "webpack -p"
 
   },
