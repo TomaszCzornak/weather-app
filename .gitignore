@@ -10,7 +10,7 @@ node_modules/
 .DS_Store
 .AppleDouble
 .LSOverride
-
+yarn.lock
 ### Linux ###
 *~
 
