@@ -3,8 +3,8 @@
   "version": "3.0.0",
   "scripts": {
     "start": "webpack-dev-server --hot -d",
-    "build": "webpack -p",
-    "heroku-prebuild": "npm i webpack-dev-server@3.11.0 --save-dev"
+    "build": "webpack -p"
+
   },
   "engines": {
     "node": "16.x",
