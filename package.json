@@ -4,7 +4,6 @@
   "scripts": {
     "start": "webpack-dev-server --hot -d",
     "build": "webpack -p",
-    "heroku-prebuild": "npm install --include=dev",
     "heroku-postbuild": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
