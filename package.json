@@ -2,8 +2,8 @@
   "name": "es6-async-await",
   "version": "3.0.0",
   "scripts": {
-    "start": "npm i webpack-dev-server@3.11.0 --save-dev",
-    "build": "webpack -p"
+    "heroku-prebuild": "npm install --dev",
+    "build": "webpack --mode production"
   },
   "engines": {
     "node": "16.x",
